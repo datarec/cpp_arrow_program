@@ -19,7 +19,12 @@ int main(int argc, char *argv[]) {
     }
     count = count - 2;
     count2 = 0;
-
+    int count3 = count + 1;
+    while (count3 != 0) {
+        std::cout << "#";
+        count3--;
+    }
+    std::cout << "\n";
     while (count != 0) {
         if (count2 == count) {
             count = count - 1;
