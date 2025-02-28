@@ -1,6 +1,4 @@
 #include <iostream>
-#include <time.h>
-#include <string>
 
 
 int main(int argc, char *argv[]) {
